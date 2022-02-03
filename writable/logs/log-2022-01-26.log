@@ -1,0 +1,38 @@
+ERROR - 2022-01-26 15:43:20 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2022-01-26 15:43:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\xampp\htdocs\food\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\food\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\food\system\Database\Seeder.php(98): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\xampp\htdocs\food\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#4 C:\xampp\htdocs\food\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#5 C:\xampp\htdocs\food\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#6 C:\xampp\htdocs\food\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'UsuarioSeeder')
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\food\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\food\spark(63): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2022-01-26 15:43:56 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 15:51:59 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 15:59:57 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 16:04:40 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 16:10:38 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 16:13:41 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 16:14:58 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 16:42:18 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 16:42:55 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 16:43:26 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 16:45:27 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 16:55:32 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 17:04:58 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 17:11:47 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 17:13:12 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 17:16:07 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 17:18:30 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 17:19:00 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 17:24:30 --> Unknown column 'criado_em' in 'field list'
+ERROR - 2022-01-26 17:24:40 --> Unknown column 'criado_em' in 'field list'
