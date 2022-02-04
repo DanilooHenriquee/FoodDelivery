@@ -71,7 +71,7 @@
 
 <?php echo $this->section('scripts'); ?>
 <!-- Aqui enviamos para o temaplate principal os scripts -->
-<script src="<?php echo site_url('admin/vendors/auto-complete/jquery-ui.css'); ?>"></script>
+<script src="<?php echo site_url('admin/vendors/auto-complete/jquery-ui.js'); ?>"></script>
 
 <script>
     $(function() {
@@ -91,8 +91,9 @@
                                 value: -1
                             }];
                         };
+                        response(data); // aqui temos o valor no data.
                     },
-                    response(data); // aqui temos o valor no data.
+
                 }); // fim do Ajax.
             },
 
@@ -103,7 +104,7 @@
                     return false;
                 } else {
                     window.location.href = '<?php echo site_url('admin/usuarios/show/'); ?>' + ui.item.id;
-                };
+                }
             },
         }); //fim autocomplete
     });
