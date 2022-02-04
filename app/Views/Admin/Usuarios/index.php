@@ -20,9 +20,6 @@
 
 <?php echo $this->section('conteudo'); ?>
 <!-- Aqui enviamos para o temaplate principal os conteudos -->
-<h1>Hello World!</h1>
-<?php echo $titulo;   ?>
-
 <div class="row">
 
     <div class="col-lg-12 grid-margin stretch-card">
