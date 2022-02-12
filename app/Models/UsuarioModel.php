@@ -16,6 +16,9 @@ class UsuarioModel extends Model {
     protected $deletedField     = 'deletado_em';
 
 
+
+    
+
     public function procurar($term) {
 
         if ($term === null) {
